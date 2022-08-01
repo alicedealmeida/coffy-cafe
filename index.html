@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Coffy Cafe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.gif">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="#home-section"><img id="header-img" src="imgs/logo.png" alt="brand logo"></a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#services">services</a></li>
+                <li><a class="nav-link" href="#products">products</a></li>
+                <li><a class="nav-link" href="#booking">booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home-section">
+
+        <img src="imgs/first_img.jpg" alt="coffee photo">
+        <div class="home-text">
+            <h1>Fresh coffee for you everyday</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus donec donec malesuada suspendisse nibh
+                vitae.
+                Vitae pulvinar ut mattis in integer tellus pulvinar.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services-text">
+            <h1>Our services</h1>
+            <p>We offer lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum libero urna, ullamcorper ac
+            tempor, enim. Mi dui turpis blandit ut aliquam. Viverra cursus nam dictum in vivamus. At fames molestie
+            malesuada cursus a quam. Elit vel quisque augue in ut.
+            Nam purus diam viverra aliquet vel. Praesent sem enim leo, ac imperdiet hendrerit proin. Suspendisse mauris
+            in in justo. Luctus suspendisse eget tempus, fames. Feugiat.</p>
+        </div>  
+        <div class="video">
+            <iframe id="video" src="https://www.youtube-nocookie.com/embed/kyvnngAEIpY?controls=0" title="Coffee"
+            frameborder="0" allowfullscreen></iframe>
+        </div>    
+    </section>
+
+    <section id="products">
+        <h1>Products</h1>
+        <div class="product-gallery">
+
+                <h6 class="coffe-label">coffee</h6>
+
+
+                <h6 class="cookies-label">cookies</h6>
+
+
+                <h6 class="sandwiches-label">sandwiches</h6>
+
+
+                <img src="imgs/product-coffee.jpg" class="product-img coffee" alt="coffee">
+
+
+                <img src="imgs/product-cookies.jpg" class="product-img cookies" alt="cookies">
+
+
+                <img src="imgs/product-sandwich.jpg" class="product-img sandwiches" alt="sandwiches">
+
+
+                <h6 class="desserts-label">desserts</h6>
+
+
+                <h6 class="pastries-label">pastries</h6>
+
+
+                <h6 class="breads-label">breads</h6>
+
+
+                <img src="imgs/product-dessert.jpg" class="product-img dessert" alt="desserts">
+
+
+                <img src="imgs/product-pastries.jpg" class="product-img pastries" alt="pastries">
+
+
+                <img src="imgs/product-bread.jpg" class="product-img breads" alt="breads">
+
+        </div>
+    </section>
+
+        <section id="booking">
+            <h1>Reservation for lunch, dinner or parties!</h1>
+            <form id="form" method="post" name="coffy-cafe">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail." required/> 
+                <label for="date">Pick a date </label>
+                <input type="date" name="date" id="date" required/>
+                <label for="time">Pick a time </label>
+                <input type="time" name="time" id="time" min="09:00" max="18:00" required/>
+                <input id="submit" type="submit" value="Reserve a table" class="btn"/>
+            </form>
+        </section>
+
+        <footer>
+            <div class="address">
+                <p>32 Coffeland Av</p> 
+                <p>Coffee Town, CA</p>
+            </div>   
+            <div class="copyright">
+                <p>2022 - All rights reserved.</p> 
+            </div>        
+        </footer>
+</body>
+
+</html>
