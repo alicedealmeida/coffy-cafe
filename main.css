@@ -280,7 +280,7 @@ footer {
     border-radius: 4px;
 }
 
-.success-msg > a:visited {
+.success-mg > a, .success-msg > a:visited {
     color: black;
 }
 
