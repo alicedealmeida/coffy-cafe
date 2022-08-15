@@ -1,2 +1,4 @@
-# coffy-cafe
-Landing page I created with the sole purpose to exercise the use of flexbox and responsiveness. 
+# Coffy Cafe
+Mockup de uma landing page para uma cafeteria, criada apenas para exercitar o uso de CSS flexbox e responsividade.
+
+(Website  Coffy Cafe)[coffy-cafe.netlify.app]
